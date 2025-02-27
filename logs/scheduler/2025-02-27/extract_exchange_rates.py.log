@@ -1,0 +1,126 @@
+[2025-02-27T00:00:18.720+0000] {processor.py:157} INFO - Started process (PID=740) to work on /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:00:18.721+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/extract_exchange_rates.py for tasks to queue
+[2025-02-27T00:00:18.722+0000] {logging_mixin.py:151} INFO - [2025-02-27T00:00:18.721+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:00:18.726+0000] {logging_mixin.py:151} INFO - [2025-02-27T00:00:18.725+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/extract_exchange_rates.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_exchange_rates.py", line 8, in <module>
+    from db_scripts import create_raw_tablep
+ImportError: cannot import name 'create_raw_tablep' from 'db_scripts' (/opt/airflow/scripts/db_scripts.py)
+[2025-02-27T00:00:18.726+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:00:18.737+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_exchange_rates.py took 0.019 seconds
+[2025-02-27T00:00:48.973+0000] {processor.py:157} INFO - Started process (PID=745) to work on /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:00:48.974+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/extract_exchange_rates.py for tasks to queue
+[2025-02-27T00:00:48.974+0000] {logging_mixin.py:151} INFO - [2025-02-27T00:00:48.974+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:00:48.979+0000] {logging_mixin.py:151} INFO - [2025-02-27T00:00:48.978+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/extract_exchange_rates.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_exchange_rates.py", line 8, in <module>
+    from db_scripts import create_raw_tablep
+ImportError: cannot import name 'create_raw_tablep' from 'db_scripts' (/opt/airflow/scripts/db_scripts.py)
+[2025-02-27T00:00:48.979+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:00:48.992+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_exchange_rates.py took 0.021 seconds
+[2025-02-27T00:01:19.229+0000] {processor.py:157} INFO - Started process (PID=750) to work on /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:01:19.229+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/extract_exchange_rates.py for tasks to queue
+[2025-02-27T00:01:19.230+0000] {logging_mixin.py:151} INFO - [2025-02-27T00:01:19.230+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:01:19.234+0000] {logging_mixin.py:151} INFO - [2025-02-27T00:01:19.233+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/extract_exchange_rates.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_exchange_rates.py", line 8, in <module>
+    from db_scripts import create_raw_tablep
+ImportError: cannot import name 'create_raw_tablep' from 'db_scripts' (/opt/airflow/scripts/db_scripts.py)
+[2025-02-27T00:01:19.235+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:01:19.247+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_exchange_rates.py took 0.021 seconds
+[2025-02-27T00:01:49.493+0000] {processor.py:157} INFO - Started process (PID=755) to work on /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:01:49.493+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/extract_exchange_rates.py for tasks to queue
+[2025-02-27T00:01:49.494+0000] {logging_mixin.py:151} INFO - [2025-02-27T00:01:49.494+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:01:49.498+0000] {logging_mixin.py:151} INFO - [2025-02-27T00:01:49.497+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/extract_exchange_rates.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_exchange_rates.py", line 8, in <module>
+    from db_scripts import create_raw_tablep
+ImportError: cannot import name 'create_raw_tablep' from 'db_scripts' (/opt/airflow/scripts/db_scripts.py)
+[2025-02-27T00:01:49.499+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:01:49.509+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_exchange_rates.py took 0.019 seconds
+[2025-02-27T00:02:19.763+0000] {processor.py:157} INFO - Started process (PID=760) to work on /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:02:19.764+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/extract_exchange_rates.py for tasks to queue
+[2025-02-27T00:02:19.764+0000] {logging_mixin.py:151} INFO - [2025-02-27T00:02:19.764+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:02:19.769+0000] {logging_mixin.py:151} INFO - [2025-02-27T00:02:19.768+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/extract_exchange_rates.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_exchange_rates.py", line 8, in <module>
+    from db_scripts import create_raw_tablep
+ImportError: cannot import name 'create_raw_tablep' from 'db_scripts' (/opt/airflow/scripts/db_scripts.py)
+[2025-02-27T00:02:19.769+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:02:19.782+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_exchange_rates.py took 0.021 seconds
+[2025-02-27T00:02:50.025+0000] {processor.py:157} INFO - Started process (PID=765) to work on /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:02:50.026+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/extract_exchange_rates.py for tasks to queue
+[2025-02-27T00:02:50.027+0000] {logging_mixin.py:151} INFO - [2025-02-27T00:02:50.026+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:02:50.031+0000] {logging_mixin.py:151} INFO - [2025-02-27T00:02:50.030+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/extract_exchange_rates.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_exchange_rates.py", line 8, in <module>
+    from db_scripts import create_raw_tablep
+ImportError: cannot import name 'create_raw_tablep' from 'db_scripts' (/opt/airflow/scripts/db_scripts.py)
+[2025-02-27T00:02:50.032+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:02:50.043+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_exchange_rates.py took 0.020 seconds
+[2025-02-27T00:03:20.321+0000] {processor.py:157} INFO - Started process (PID=770) to work on /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:03:20.321+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/extract_exchange_rates.py for tasks to queue
+[2025-02-27T00:03:20.322+0000] {logging_mixin.py:151} INFO - [2025-02-27T00:03:20.322+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:03:20.326+0000] {logging_mixin.py:151} INFO - [2025-02-27T00:03:20.325+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/extract_exchange_rates.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_exchange_rates.py", line 8, in <module>
+    from db_scripts import create_raw_tablep
+ImportError: cannot import name 'create_raw_tablep' from 'db_scripts' (/opt/airflow/scripts/db_scripts.py)
+[2025-02-27T00:03:20.327+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:03:20.339+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_exchange_rates.py took 0.021 seconds
+[2025-02-27T00:03:44.537+0000] {processor.py:157} INFO - Started process (PID=775) to work on /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:03:44.538+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/extract_exchange_rates.py for tasks to queue
+[2025-02-27T00:03:44.539+0000] {logging_mixin.py:151} INFO - [2025-02-27T00:03:44.538+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:03:44.548+0000] {processor.py:839} INFO - DAG(s) dict_keys(['extract_exchange_rates']) retrieved from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:03:44.594+0000] {logging_mixin.py:151} INFO - [2025-02-27T00:03:44.594+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-27T00:03:44.602+0000] {logging_mixin.py:151} INFO - [2025-02-27T00:03:44.602+0000] {dag.py:3722} INFO - Setting next_dagrun for extract_exchange_rates to 2025-02-26T00:00:00+00:00, run_after=2025-02-27T00:00:00+00:00
+[2025-02-27T00:03:44.610+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_exchange_rates.py took 0.074 seconds
+[2025-02-27T00:04:14.821+0000] {processor.py:157} INFO - Started process (PID=784) to work on /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:04:14.822+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/extract_exchange_rates.py for tasks to queue
+[2025-02-27T00:04:14.822+0000] {logging_mixin.py:151} INFO - [2025-02-27T00:04:14.822+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:04:14.830+0000] {processor.py:839} INFO - DAG(s) dict_keys(['extract_exchange_rates']) retrieved from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:04:14.842+0000] {logging_mixin.py:151} INFO - [2025-02-27T00:04:14.842+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-27T00:04:14.852+0000] {logging_mixin.py:151} INFO - [2025-02-27T00:04:14.852+0000] {dag.py:3722} INFO - Setting next_dagrun for extract_exchange_rates to 2025-02-27T00:00:00+00:00, run_after=2025-02-28T00:00:00+00:00
+[2025-02-27T00:04:14.859+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_exchange_rates.py took 0.040 seconds
+[2025-02-27T00:04:45.091+0000] {processor.py:157} INFO - Started process (PID=789) to work on /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:04:45.092+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/extract_exchange_rates.py for tasks to queue
+[2025-02-27T00:04:45.093+0000] {logging_mixin.py:151} INFO - [2025-02-27T00:04:45.092+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:04:45.104+0000] {processor.py:839} INFO - DAG(s) dict_keys(['extract_exchange_rates']) retrieved from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:04:45.119+0000] {logging_mixin.py:151} INFO - [2025-02-27T00:04:45.118+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-27T00:04:45.130+0000] {logging_mixin.py:151} INFO - [2025-02-27T00:04:45.130+0000] {dag.py:3722} INFO - Setting next_dagrun for extract_exchange_rates to 2025-02-27T00:00:00+00:00, run_after=2025-02-28T00:00:00+00:00
+[2025-02-27T00:04:45.137+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_exchange_rates.py took 0.048 seconds
+[2025-02-27T00:05:15.389+0000] {processor.py:157} INFO - Started process (PID=794) to work on /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:05:15.390+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/extract_exchange_rates.py for tasks to queue
+[2025-02-27T00:05:15.390+0000] {logging_mixin.py:151} INFO - [2025-02-27T00:05:15.390+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:05:15.400+0000] {processor.py:839} INFO - DAG(s) dict_keys(['extract_exchange_rates']) retrieved from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-27T00:05:15.414+0000] {logging_mixin.py:151} INFO - [2025-02-27T00:05:15.414+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-02-27T00:05:15.425+0000] {logging_mixin.py:151} INFO - [2025-02-27T00:05:15.424+0000] {dag.py:3722} INFO - Setting next_dagrun for extract_exchange_rates to 2025-02-27T00:00:00+00:00, run_after=2025-02-28T00:00:00+00:00
+[2025-02-27T00:05:15.432+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_exchange_rates.py took 0.045 seconds

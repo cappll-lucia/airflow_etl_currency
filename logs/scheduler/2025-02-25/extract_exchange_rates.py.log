@@ -1,0 +1,112 @@
+[2025-02-25T21:56:44.643+0000] {processor.py:157} INFO - Started process (PID=214) to work on /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-25T21:56:44.644+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/extract_exchange_rates.py for tasks to queue
+[2025-02-25T21:56:44.644+0000] {logging_mixin.py:151} INFO - [2025-02-25T21:56:44.644+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-25T21:56:44.649+0000] {logging_mixin.py:151} INFO - [2025-02-25T21:56:44.648+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/extract_exchange_rates.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_exchange_rates.py", line 4, in <module>
+    from scripts.api_client import fetch_exchange_rates
+ModuleNotFoundError: No module named 'scripts'
+[2025-02-25T21:56:44.649+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-25T21:56:44.660+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_exchange_rates.py took 0.018 seconds
+[2025-02-25T21:57:14.950+0000] {processor.py:157} INFO - Started process (PID=219) to work on /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-25T21:57:14.951+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/extract_exchange_rates.py for tasks to queue
+[2025-02-25T21:57:14.952+0000] {logging_mixin.py:151} INFO - [2025-02-25T21:57:14.951+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-25T21:57:14.956+0000] {logging_mixin.py:151} INFO - [2025-02-25T21:57:14.955+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/extract_exchange_rates.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_exchange_rates.py", line 4, in <module>
+    from scripts.api_client import fetch_exchange_rates
+ModuleNotFoundError: No module named 'scripts'
+[2025-02-25T21:57:14.956+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-25T21:57:14.967+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_exchange_rates.py took 0.018 seconds
+[2025-02-25T21:57:45.253+0000] {processor.py:157} INFO - Started process (PID=224) to work on /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-25T21:57:45.253+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/extract_exchange_rates.py for tasks to queue
+[2025-02-25T21:57:45.254+0000] {logging_mixin.py:151} INFO - [2025-02-25T21:57:45.254+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-25T21:57:45.258+0000] {logging_mixin.py:151} INFO - [2025-02-25T21:57:45.257+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/extract_exchange_rates.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_exchange_rates.py", line 4, in <module>
+    from scripts.api_client import fetch_exchange_rates
+ModuleNotFoundError: No module named 'scripts'
+[2025-02-25T21:57:45.258+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-25T21:57:45.267+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_exchange_rates.py took 0.015 seconds
+[2025-02-25T21:58:15.588+0000] {processor.py:157} INFO - Started process (PID=229) to work on /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-25T21:58:15.589+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/extract_exchange_rates.py for tasks to queue
+[2025-02-25T21:58:15.590+0000] {logging_mixin.py:151} INFO - [2025-02-25T21:58:15.589+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-25T21:58:15.594+0000] {logging_mixin.py:151} INFO - [2025-02-25T21:58:15.593+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/extract_exchange_rates.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_exchange_rates.py", line 4, in <module>
+    from scripts.api_client import fetch_exchange_rates
+ModuleNotFoundError: No module named 'scripts'
+[2025-02-25T21:58:15.594+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-25T21:58:15.606+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_exchange_rates.py took 0.021 seconds
+[2025-02-25T21:58:45.917+0000] {processor.py:157} INFO - Started process (PID=234) to work on /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-25T21:58:45.918+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/extract_exchange_rates.py for tasks to queue
+[2025-02-25T21:58:45.919+0000] {logging_mixin.py:151} INFO - [2025-02-25T21:58:45.918+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-25T21:58:45.923+0000] {logging_mixin.py:151} INFO - [2025-02-25T21:58:45.922+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/extract_exchange_rates.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_exchange_rates.py", line 4, in <module>
+    from scripts.api_client import fetch_exchange_rates
+ModuleNotFoundError: No module named 'scripts'
+[2025-02-25T21:58:45.923+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-25T21:58:45.935+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_exchange_rates.py took 0.020 seconds
+[2025-02-25T21:59:16.246+0000] {processor.py:157} INFO - Started process (PID=239) to work on /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-25T21:59:16.247+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/extract_exchange_rates.py for tasks to queue
+[2025-02-25T21:59:16.248+0000] {logging_mixin.py:151} INFO - [2025-02-25T21:59:16.247+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-25T21:59:16.252+0000] {logging_mixin.py:151} INFO - [2025-02-25T21:59:16.251+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/extract_exchange_rates.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_exchange_rates.py", line 4, in <module>
+    from scripts.api_client import fetch_exchange_rates
+ModuleNotFoundError: No module named 'scripts'
+[2025-02-25T21:59:16.252+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-25T21:59:16.265+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_exchange_rates.py took 0.021 seconds
+[2025-02-25T21:59:46.589+0000] {processor.py:157} INFO - Started process (PID=244) to work on /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-25T21:59:46.590+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/extract_exchange_rates.py for tasks to queue
+[2025-02-25T21:59:46.591+0000] {logging_mixin.py:151} INFO - [2025-02-25T21:59:46.590+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-25T21:59:46.596+0000] {logging_mixin.py:151} INFO - [2025-02-25T21:59:46.595+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/extract_exchange_rates.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_exchange_rates.py", line 4, in <module>
+    from scripts.api_client import fetch_exchange_rates
+ModuleNotFoundError: No module named 'scripts'
+[2025-02-25T21:59:46.597+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-25T21:59:46.609+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_exchange_rates.py took 0.022 seconds
+[2025-02-25T22:00:16.926+0000] {processor.py:157} INFO - Started process (PID=249) to work on /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-25T22:00:16.927+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/extract_exchange_rates.py for tasks to queue
+[2025-02-25T22:00:16.927+0000] {logging_mixin.py:151} INFO - [2025-02-25T22:00:16.927+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-25T22:00:16.933+0000] {logging_mixin.py:151} INFO - [2025-02-25T22:00:16.931+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/extract_exchange_rates.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_exchange_rates.py", line 4, in <module>
+    from scripts.api_client import fetch_exchange_rates
+ModuleNotFoundError: No module named 'scripts'
+[2025-02-25T22:00:16.933+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_exchange_rates.py
+[2025-02-25T22:00:16.950+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_exchange_rates.py took 0.027 seconds
