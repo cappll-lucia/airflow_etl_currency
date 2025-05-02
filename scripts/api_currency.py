@@ -2,7 +2,7 @@ import requests
 import os
 import sys
 sys.path.append("/opt/airflow/scripts")
-from db_scripts import fetch_raw_data
+from db_scripts import insert_raw_data
 import psycopg2
 from psycopg2.extras import DictCursor
 
@@ -21,7 +21,7 @@ def fetch_exchange_rates():
 
     if response.status_code==200:
         data = response.json()
-        fetch_raw_data(data)
+        insert_raw_data(data)
         return data
     else: 
         raise Exception(f"API Error: {response.status_code} / {response.text} ")

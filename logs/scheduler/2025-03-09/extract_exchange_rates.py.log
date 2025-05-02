@@ -1,0 +1,7 @@
+[2025-03-09T19:59:37.956+0000] {processor.py:157} INFO - Started process (PID=174) to work on /opt/airflow/dags/extract_exchange_rates.py
+[2025-03-09T19:59:37.956+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/extract_exchange_rates.py for tasks to queue
+[2025-03-09T19:59:37.957+0000] {logging_mixin.py:151} INFO - [2025-03-09T19:59:37.957+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/extract_exchange_rates.py
+[2025-03-09T19:59:37.966+0000] {processor.py:839} INFO - DAG(s) dict_keys(['extract_exchange_rates']) retrieved from /opt/airflow/dags/extract_exchange_rates.py
+[2025-03-09T19:59:37.980+0000] {logging_mixin.py:151} INFO - [2025-03-09T19:59:37.980+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-03-09T19:59:37.992+0000] {logging_mixin.py:151} INFO - [2025-03-09T19:59:37.992+0000] {dag.py:3722} INFO - Setting next_dagrun for extract_exchange_rates to 2025-03-09T00:00:00+00:00, run_after=2025-03-10T00:00:00+00:00
+[2025-03-09T19:59:38.004+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/extract_exchange_rates.py took 0.050 seconds

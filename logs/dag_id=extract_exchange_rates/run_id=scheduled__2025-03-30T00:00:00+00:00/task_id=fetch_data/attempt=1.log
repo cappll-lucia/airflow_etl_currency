@@ -1,0 +1,6 @@
+[2025-03-31T10:41:33.631+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_exchange_rates.fetch_data scheduled__2025-03-30T00:00:00+00:00 [queued]>
+[2025-03-31T10:41:33.636+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_exchange_rates.fetch_data scheduled__2025-03-30T00:00:00+00:00 [queued]>
+[2025-03-31T10:41:33.636+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2025-03-31T10:41:33.643+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): fetch_data> on 2025-03-30 00:00:00+00:00
+[2025-03-31T10:41:33.646+0000] {local_task_job_runner.py:115} ERROR - Received SIGTERM. Terminating subprocesses
+[2025-03-31T10:41:33.647+0000] {local_task_job_runner.py:115} ERROR - Received SIGTERM. Terminating subprocesses
